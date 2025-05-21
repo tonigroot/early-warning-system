@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Warning System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flood Warning System</h1>
+        <form id="location-form">
+            <label for="city">city:</label>
+            <input type="text" id="city" placeholder="Enter city" required>
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>Weather Data</h2>
+            <p id="location"></p>
+            <p id="sea-level-pressure"></p>
+            <p id="surface-pressure"></p>
+            <p id="flood-risk"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
