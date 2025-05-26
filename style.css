@@ -1,0 +1,361 @@
+*{
+  margin: 0;
+  width: 100;
+}
+.navbar{
+  background-color: black;
+  color:rgba(230, 232, 218, 0.762);
+  height: 60px;
+  width: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+}
+
+.navbar a:hover{
+  color: #ed3902;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* .whitebox{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(rgba(255, 61, 0, 0.9), rgba(255, 61, 0, 0.9))
+} */
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #0f0202;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(212, 153, 153, 0.1);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ed3902;
+
+}
+.hero{ 
+  height: 1000px;
+  width: 100;
+  background: linear-gradient(rgba(255, 61, 0, 0.9), rgba(255, 61, 0, 0.9)), url('img/Saibai_Island.jpg');
+  background-size: cover;
+  background-position-y: 200%;
+}
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+font-size: 30px;
+letter-spacing: 3px;
+height: 40px;
+font-weight: 100;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.hidden {
+  display: none;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 30px;
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#flood-risk {
+  font-weight: bold;
+}
+
+.warning {
+  color: red;
+  font-size:30px;
+}
+
+.success {
+  color: green;
+}
+
+.arrow{
+  color: #ed3902;
+  padding-left: 7px;
+}
+.logo{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 50px;
+}
+#contact{
+  padding-right: 50px;
+}
+
+#head{
+  font-size: 14rem;
+  color: rgba(230, 232, 218, 0.762);
+  padding-top: 110px;
+  padding-left: 10px;
+  letter-spacing: -25px;
+  cursor: default;
+}
+#subhead{
+  color: black;
+  font-size: 2.8rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  top: 270px;
+  left: 640px;
+  cursor: pointer;
+}
+
+.main{
+height: 600px;
+width: 100;
+display: flex;
+margin: 20px;
+border: 40px solid black;
+}
+.content1{
+  height: 600px;
+  width:350px;
+  background-color:black;
+  color:#e6e8da;
+  padding-top: 30px;
+  font-size: 1.2rem;
+}
+.content1 p{
+  transform: rotate(-90deg);
+  font-size: 1.5rem;
+  font-weight: 800;
+  position: relative;
+  top: 160px;
+  left: -50px;
+  color: #e6e8da;
+  cursor:default;
+}
+.content1 span{
+  color: #ed3902;
+}
+.img1{
+  height: 600px;
+  width: 250px;
+  background-image: url(img/Saibai_People.png);
+  background-size: cover;
+  background-position-x: -100px;
+  filter: grayscale(100%);
+
+}
+.content2{
+  height: 600px;
+  width: 570px;
+  background-color: black;
+  color: #e6e8da;  
+}
+.content2 h1{
+  transform: rotate(-90deg);
+  font-size: 6rem;
+  padding-top: 200px;
+  padding-bottom: 300px;
+  padding-left: 100px;
+  cursor: default;
+  
+}
+.ampereGlobe{
+  color:#ed3902;
+  padding-left: 100px;
+}
+.img2{
+  height: 600px;
+  width: 380px;
+  background-image: url(img/Saibai_People.png);
+  background-size: cover;
+  filter: grayscale(100%);
+  background-position-x: -230px;
+}
+
+.contentImgs{
+  height: 700px;
+  width: 100;
+  background-color:black;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+
+}
+.Saibai3{
+  height: 650px;
+  width: 23%;
+  background-image: url(img/Saibai3.jpg);
+  background-size: cover;
+  transform: rotate(14deg);
+}
+.Saibai1{
+  height: 650px;
+  width: 23%;
+  background-image: url(img/Saibai1.jpg);
+  background-size: cover;
+  transform: rotate(-7deg);
+}
+.Saibai2{
+  height: 650px;
+  width: 23%;
+  background-image: url(img/Saibai2.jpg);
+  background-size: cover;
+  transform: rotate(11deg);
+}
+.headingImgs{
+  height: 50px;
+  width: 200px;
+  position:absolute;
+  padding-top: 120px;
+  left: 520px;
+  color: #e6e8da;
+  z-index: 1;
+  font-size: 3rem;
+  font-weight: 900;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.headingImgs span{
+  color: #ed3902;
+}
+ /* FOOTER  */
+
+.footer{
+  height: 675px;
+  width: 100;
+  background-color: black;
+  padding-top: 50px;
+
+}
+.buttons{
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer button{
+  height: 50px;
+  width: 130px;
+  border: 2px solid #e6e8da;
+  border-radius: 20px;
+  background-color: black;
+  color: #e6e8da;
+  cursor: pointer;
+}
+.buttons button:hover{
+ border: 2px solid #ed3902;
+ color: #dfdfdf;
+}
+.forward{
+  color: #ed3902;
+  padding-top: 10px;
+  font-size: 1.2rem;
+}
+.promotion{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.signup{
+  color: #e6e8da;
+  padding-left: 60px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.signup:active{
+  color: #ed3902;
+}
+.exclusivity{
+  color: #e6e8da;
+  padding-left: 840px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.email{
+  width: 500px;
+  color: #e6e8da;
+  padding-top: 15px;
+  background-color: black;
+  border: 2px solid black;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.email:active{
+  border: 2px solid black;
+}
+.heading{
+  color: #ed3902;
+  height: 280px;
+  font-weight: 900;
+  font-size: 6.5rem;
+  padding-left: 30px;
+  clip-path: polygon(0 0, 100% 0, 100% 99%, 0 99%);
+  cursor: pointer;
+}
+.underline{
+  color:white;
+}
+.policy{
+  padding-top: 50px;
+  position: middle;
+  height: 50px;
+  color: #e6e8da;
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.policy a:hover{
+  color: #ed3902;
+}
+.privacy{
+  padding-left: 650px;
+  cursor: pointer;
+}
